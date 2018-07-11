@@ -1,0 +1,104 @@
+﻿body {
+    text-align: center;
+    background: radial-gradient(circle, #ff6347, slateblue);
+  
+}
+
+input[type=number] {
+    width: 4rem;
+    height: 3vh;
+    font-size: 2vh;
+    border: 2px solid black;
+}
+.container {
+  width: 50%;
+  height: auto;
+  padding: 10%;
+  margin: 2% auto;
+  border: 5px  #244;
+  border-radius: 4rem;
+  border-style: double;
+  font-family: codystar;
+}
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.canvasHeading {
+    margin-top: 10px;
+    font-size: 5vh;
+    color: yellow;
+    font-weight: bolder;
+}
+
+.mainHeading {
+    margin-top: 5px;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-color: orange;
+    font-size: 6vh;
+    font-weight: 300;
+    font-family: Skranji, 'sans-serif';
+}
+
+.pickColorHeading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+}
+
+.gridSizeHeading {
+    margin-top: 10px;
+    padding-top: 15px;
+    margin-bottom: 8px;
+    font-family: Handlee;
+    font-size: 3vh;
+    color: #EEFF22;
+    font-weight: bold;
+}
+
+.gridSizeInput {
+    font-size: 3vh;
+    margin: 20px;
+    font-weight:bold;
+    color: cyan;
+    font-family: Philosopher, courgette;
+}
+
+.gridColumn {
+    width: 3vh;
+    background: ;
+}
+
+.gridRow {
+    height: 3vh;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  border-color: red ;
+}
+
+#gridCanvas {
+    margin-top: 10px;
+}
+
+#colorPicker, #gridValueReset, #gridValueSubmit {
+    height: 4vh;
+  cursor: pointer;
+  font-size: 14px;
+  
+}
+
+input {
+    font-size: 2vh;
+}
